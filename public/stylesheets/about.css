@@ -1,0 +1,65 @@
+
+
+.container{
+    text-align: center;
+    height:60px;
+    margin-top:10px;
+    margin-bottom: 20px;
+
+}
+
+a:visited{
+
+    color:blue;
+}
+
+a{
+  font-size:40px;
+  text-decoration: none;
+}
+
+#info {
+font-family: 'Cinzel', serif;
+  font-size: 30px;
+line-height: 2;
+}
+li{
+  font-size: 25px;
+  margin-top: 20px;
+  font-family: 'Roboto Mono', monospace
+}
+
+.edu{
+  font-family: 'Merriweather', serif;
+}
+
+.ij{
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+}
+
+.show{
+  animation-name: info;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes info{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%{
+    opacity: 0.5;
+
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
